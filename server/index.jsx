@@ -3,7 +3,7 @@ import yields from 'express-yields';
 import fs from 'fs-extra';
 import webpack from 'webpack';
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3002;
 const app = express();
 
 if (process.env.NODE_ENV === 'development') {
