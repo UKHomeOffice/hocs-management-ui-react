@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a4358cd9c20b6c11dd3e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ad2b48d129f0d55a64d7"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -26242,7 +26242,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var render = function render(_App) {
     console.log("in render");
     if (typeof window !== 'undefined') {
-        _reactDom2.default.render(_react2.default.createElement(_App, null), document.getElementById('AppContainer'));
+        _reactDom2.default.render(_react2.default.createElement(_App, null), document.getElementById("AppContainer"));
     }
 };
 
